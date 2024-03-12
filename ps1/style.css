@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+input{
+	padding: 10px;
+}
+textarea{
+	padding: 10px;
+}
+button{
+	padding: 10px;
+}
+.main {
+	padding: 40px;
+	width: 100vw;
+	height: 100vh;
+	background: url("back.jpg");
+}
+.hero {
+	border: 2px solid black;
+	min-height: 100%;
+	background-color: rgb(13, 13, 118);
+	padding: 25px 35px;
+}
+.nav{
+          margin-bottom: 15px;
+}
+.pink {
+	color: rgb(115, 85, 196);
+}
+.white {
+	color: white;
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+ul li {
+	list-style: none;
+	color: white;
+	font-weight: 700;
+}
+ul li:nth-child(4) {
+	color: rgb(115, 85, 196);
+}
+.cont-below {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+}
+.left {
+	height: 100%;
+	width: 50%;
+	padding: 10px;
+}
+.right {
+	height: 100%;
+	width: 35%;
+	padding: 10px;
+}
+.left h3 {
+	font-size: 27px;
+	margin-top: 10px;
+	margin-bottom: 19px;
+}
+.left h4 {
+	font-size: 13px;
+	margin-bottom: 19px;
+}
+.first .second {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+.first{
+	margin-bottom: 20px;
+}
+.second{
+	margin-bottom: 20px;
+}
+form .first input{
+	background-color: rgb(115, 85, 196);
+	width: 40%;
+	height: 35px;
+	margin-right: 20px;
+	/* margin: 0 20px; */
+}
+form .second input {
+	background-color: rgb(115, 85, 196);
+	width: 40%;
+	height: 35px;
+	margin-right: 20px;
+}
+form .first input::placeholder {
+	color: white;
+}
+form .second input::placeholder {
+	color: white;
+}
+textarea{
+	color: white;
+	background-color: rgb(115, 85, 196);
+	width: 83%;
+	margin-bottom: 10px;
+}
+textarea::placeholder{
+	color: white;
+}
+.third {
+	width: 90%;
+	margin: auto;
+	background-color: rgb(115, 85, 196);
+	height: 140px;
+}
+.bott #abc {
+	outline: none;
+	background-color: rgb(115, 85, 196);
+	color: white;
+	height: 30px;
+}
+.right{
+	margin-top: 10px;
+}
+.right .peh{
+	margin-top: 10px;
+	font-size: 27px;
+}
+.right  .doo{
+	margin-bottom: 19px;
+	font-size: 27px;
+}
+.right  .ini{
+	font-size: 13px;
+}
+.right .outi{
+	font-size: 13px;
+}
+.right img {
+	margin: 4px;
+	width: 40px;
+	height: 30px;
+}
